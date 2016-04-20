@@ -1,11 +1,9 @@
 ---
 layout:     post
 title:      "鱼儿"
-subtitle:   "React versus Angular 2: There Will Be Blood"
+subtitle:   "打招呼"
 date:       2016-04-18 15:38:00
-author:     "Hux"
-header-img: "img/post-bg-re-vs-ng2.jpg"
-header-mask: 0.3
+author:     "Fish"
 catalog:    true
 tags:
     - 前端开发
