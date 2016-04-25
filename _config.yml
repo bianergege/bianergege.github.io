@@ -14,10 +14,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 RSS: false
 weibo_username:     231012832
 zhihu_username:     bian-er-ge-ge
-github_username:    bianergege
-twitter_username:   2586776820Wang
+#github_username:    bianergege
+#twitter_username:   2586776820Wang
 #facebook_username:  huxpro
-
+jianshu_username:   6f9c446a3aa3
 
 
 # Build settings
