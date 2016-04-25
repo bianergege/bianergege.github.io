@@ -59,14 +59,14 @@ layout: default
 
                 <hr>
 
-                {% if site.duoshuo_share && site.duoshuo_username %}     <!--把if注释掉，就可以看到分享了-->
+                {% if site.duoshuo_share && site.duoshuo_username %}     
                 <!-- 多说 Share start -->
                 </style>
                 <div class="ds-share"
                     style="text-align: right"
                     data-thread-key="{{page.id}}" data-title="{{page.title}}"
                     data-images="{{ site.url }}{{site.baseurl}}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | Hux Blog，@Hux黄玄 的个人博客"
+                    data-content="{{ content | strip_html | truncate:80 }} | Fish Blog，@Fish王佳瑜 的个人博客"
                     data-url="{{site.url}}{{site.baseurl}}{{page.url}}">
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
