@@ -4,6 +4,7 @@ title:      "有关markdown语法"
 subtitle:   "打招呼"
 date:       2016-04-18 15:38:00
 author:     "Fish"
+header-img: "img/post-bg-markdown.jpg"
 catalog:    true
 tags:
     - 音乐
@@ -40,12 +41,13 @@ tags:
 - 插入链接
  [链接](http://wwww.baidu.com)
 - 插入图片
-![多了一个感叹号](http://image.baidu.com/search/detail?ct=503316480&z=0&tn=baiduimagedetail&ipn=d&cl=2&cm=1&sc=0&lm=-1&ie=gbk&pn=1&rn=1&di=87310136650&ln=30&word=%B0%D9%B6%C8%CD%BC%C6%AC&os=2953167660,1564353360&cs=427840222,1928993467&objurl=http%3A%2F%2Fimg.hb.aicdn.com%2Fc0b35eed3ce270da5b0c6092a17a8ceb5df317052866-gx7Kbx_fw580&bdtype=0&simid=3516887734,640955632&fr=ala&ori_query=%E7%99%BE%E5%BA%A6%E5%9B%BE%E7%89%87&ala=0&alatpl=sp&pos=1&timg=https%3A%2F%2Fss0.bdstatic.com%2F94oJfD_bAAcT8t7mm9GUKT-xh_%2Ftimg%3Fimage%26quality%3D100%26size%3Db4000_4000%26sec%3D1461577900%26di%3Deaf4176c35a706cb9e89adb15d468b1c%26src%3Dhttp%3A%2F%2Fimg.hb.aicdn.com%2Fc0b35eed3ce270da5b0c6092a17a8ceb5df317052866-gx7Kbx_fw580&ctd=1461577818894^1_1522X764%1)
+![多了一个感叹号](http://upload.anqu.com/20160426/1461637403283310.png)
 - 我创的链接
 <2586776820@qq.com>
 
 ## 字体
 **我粗吗**
+<strong>我粗吗</strong>
 *我斜吗*
 ***又粗又斜***
 
@@ -73,6 +75,9 @@ else
 
 我就是分割线
 
+****
+我也是，三个*以上都是分割线
+
 ~~删除你，啊哈哈~~
 
 ## kankan
@@ -83,4 +88,5 @@ else
 
 ## 小型文本
 <small>比比谁更小</small>
+
 
