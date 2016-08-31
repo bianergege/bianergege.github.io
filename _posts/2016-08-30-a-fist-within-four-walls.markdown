@@ -4,7 +4,7 @@ title:      "《城寨英雄》剧评"
 subtitle:   "第一次认真的剧评"
 date:       2016-08-30 11:38:00
 author:     "Fish"
-header-img: "img/post-bg-markdown.jpg"
+header-img: "img/post830-bg.jpg"
 catalog:    true
 tags:
     - 陈展鹏
