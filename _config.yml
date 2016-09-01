@@ -106,11 +106,11 @@ friends: [
         title: "DHong Say",
         href: "http://dhong.co"
     },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
         title: "前端神盾局",
         href: "http://wepiaofei.github.io/blog/"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
     }
 ]
 
