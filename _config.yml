@@ -3,9 +3,9 @@ title: 浪漫双鱼
 SEOTitle: 鱼儿的博客 | Fish Blog
 header-img: img/home-bg.jpg
 email: wjy282662@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
-url: "http://huangxuan.me"              # your host, for absolute URL
+description: "这里是 @Fish王佳瑜 的个人博客，与你一起发现更大的世界。"
+keyword: "王佳瑜, Fish王佳瑜, Fish, 王佳瑜的博客, Hish Blog, 博客, 个人网站, RPG, 测试, 手游, TVB, 港剧, 粤语"
+url: "http://bianergege.GitHub.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -59,10 +59,10 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900         #先不用，注释掉
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx，先不用，注释掉
+#ga_domain: huangxuan.me                 #先不用，注释掉
 
 
 
