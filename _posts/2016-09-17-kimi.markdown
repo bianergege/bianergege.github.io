@@ -14,7 +14,7 @@ tags:
 
 > 如果下辈子你还是乔任梁，我永远做你的VIP
 
-<embed scr="music/kimi.mp3" />
+<embed scr="music/kimi1.mp3" />
 
 连着的阴雨，是台风，还是你。
 
