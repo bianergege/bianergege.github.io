@@ -14,7 +14,7 @@ tags:
 
 > 如果下辈子你还是乔任梁，我永远做你的VIP
 
-<embed scr="http://sz.ctfs.ftn.qq.com/ftn_handler/b29e090a6251a4f889a90c27787cb7f9362e56aa1b231f9126a49db361ab7566e2d7c83b70a32b07f675cd48c3cea0237f1a5eb914fd875867824ad93c4a95a5/?mp3=%E4%B8%8D%E6%89%8D%20-%20%E4%B8%80%E8%BA%AB%E8%AF%97%E6%84%8F%E5%8D%83%E5%AF%BB%E7%80%91.mp3" />
+<embed scr="music/不才 - 一身诗意千寻瀑.mp3" />
 
 连着的阴雨，是台风，还是你。
 
