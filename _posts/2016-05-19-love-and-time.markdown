@@ -20,6 +20,18 @@ tags:
 
 *《不吐不快》*
 
+<script src="http://wuover.qiniudn.com/jquery.js"></script>
+<a class="mscBtn" id="audioBtn" style="cursor:pointer;">不吐不快</a>
+<audio id="bgMusic" src="/music/butubukuai.mp3" autoplay="autoplay" loop="loop"></audio>
+<script type="text/javascript"> 
+    var music = document.getElementById("bgMusic");
+    $("#audioBtn").click(function(){
+    if(music.paused){music.play();
+    $("#audioBtn").removeClass("pause").addClass("play");
+    }else{music.pause();
+    $("#audioBtn").removeClass("play").addClass("pause");}});
+</script>
+
 如果有人能在ktv唱出这首歌，那一定拥有不可小觑的唱功。开头那几个长句，真的好似不吐不快那般，要一下子将所有都倾吐，难得的是，张敬轩将这几句要么断气要么憋死的歌词唱的一气呵成，气息处理的井然有序，不负夕爷的词。
 
 *《悲剧人物》*
@@ -163,3 +175,4 @@ tags:
 *《直觉》*
 
 *《忘记的理由》*
+
