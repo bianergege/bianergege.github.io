@@ -20,16 +20,118 @@ tags:
 
 *《不吐不快》*
 
-<script src="http://wuover.qiniudn.com/jquery.js"></script>
-<a class="mscBtn" id="audioBtn" style="cursor:pointer;">不吐不快</a>
-<audio id="bgMusic" src="/music/butubukuai.mp3" autoplay="autoplay" loop="loop"></audio>
+<script src="/js/jquery-1.7.2.min.js"></script>
+<div id="player" style="display:none"></div>
+<ul id="playlist"></ul>
 <script type="text/javascript"> 
-    var music = document.getElementById("bgMusic");
-    $("#audioBtn").click(function(){
-    if(music.paused){music.play();
-    $("#audioBtn").removeClass("pause").addClass("play");
-    }else{music.pause();
-    $("#audioBtn").removeClass("play").addClass("pause");}});
+    (function($){
+	// Settings
+	var continous = true,
+		autoplay = true,
+		playlist = [
+			{
+				title: '不吐不快',
+				mp3: '/music/butubukuai.mp3',
+				content:'如果有人能在ktv唱出这首歌，那一定拥有不可小觑的唱功。开头那几个长句，真的好似不吐不快那般，要一下子将所有都倾吐，难得的是，张敬轩将这几句要么断气要么憋死的歌词唱的一气呵成，气息处理的井然有序，不负夕爷的词。',
+				ogg: ''
+			},
+			{
+				title: '悲剧人物',
+				mp3: '/music/beijurenwu.mp3',
+				content:'456',
+				ogg: ''
+			},
+			{
+				title: '城寨英雄',
+				mp3: '/music/walls.mp3',
+				content:'456',
+				ogg: ''
+			},
+			{
+				title: 'kimi',
+				mp3: '/music/kimi.mp3',
+				content:'456',
+				ogg: ''
+			},
+			];
+
+	// Load playlist
+	for (var i=0; i<playlist.length; i++){
+		var item = playlist[i];
+		$('#playlist').append('<li>'+item.title+'</li>');
+		$('#playlist').append(item.content);
+	}
+
+	var time = new Date(),
+		currentTrack = 0,
+		trigger = false,
+		audio, isPlaying, playCounts;
+
+	var play = function(){
+		audio.play();
+		isPlaying = true;
+	}
+
+	var pause = function(){
+		audio.pause();
+		isPlaying = false;
+	}
+
+
+	// Switch track
+	var switchTrack = function(i){
+		if (i < 0){
+			track = currentTrack = playlist.length - 1;
+		} else if (i >= playlist.length){
+			track = currentTrack = 0;
+		} else {
+			track = i;
+		}
+
+		$('audio').remove();
+		loadMusic(track);
+		if (isPlaying == true) play();
+	}
+
+	// Fire when track ended
+	var ended = function(){
+		pause();
+		audio.currentTime = 0;
+		playCounts++;
+		if (continous == true) isPlaying = true;
+	}
+
+	var beforeLoad = function(){
+	var endVal = this.seekable && this.seekable.length ? this.seekable.end(0) : 0;
+	$('.progress .loaded').css('width', (100 / (this.duration || 1) * endVal) +'%');
+	}
+
+	// Fire when track loaded completely
+	var afterLoad = function(){
+		if (autoplay == true) play();
+	}
+
+	// Load track
+	var loadMusic = function(i){
+		var item = playlist[i],
+			newaudio = $('<audio>').html('<source src="'+item.mp3+'"><source src="'+item.ogg+'">').appendTo('#player');
+		$('#playlist li').removeClass('playing').eq(i).addClass('playing');
+		audio = newaudio[0];
+		audio.addEventListener('progress', beforeLoad, false);
+		audio.addEventListener('durationchange', beforeLoad, false);
+		audio.addEventListener('canplay', afterLoad, false);
+		audio.addEventListener('ended', ended, false);
+	}
+
+	loadMusic(currentTrack);
+	$('#playlist li').each(function(i){
+		var _i = i;
+		$(this).on('click', function(){
+			switchTrack(_i);
+		});
+	});
+
+})(jQuery);
 </script>
 
 如果有人能在ktv唱出这首歌，那一定拥有不可小觑的唱功。开头那几个长句，真的好似不吐不快那般，要一下子将所有都倾吐，难得的是，张敬轩将这几句要么断气要么憋死的歌词唱的一气呵成，气息处理的井然有序，不负夕爷的词。
