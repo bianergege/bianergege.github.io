@@ -2,7 +2,7 @@
 layout:     post
 title:      "采用Jekyll + github 构建个人博客"
 subtitle:   "几次构建博客的心得"
-date:       2016-09-25 8:38:00
+date:       2016-09-26
 author:     "Fish"
 header-img: "img/post-bg-markdown.jpg"
 catalog:    true
