@@ -84,7 +84,7 @@ ruby dk.rb install
 * `gem -v` 检查gem版本
 ![gem1](/img/post926-gem1.jpg)
 
-* `gem update --system` 更新Gem
+* `gem update --system` 更新gem
 ![gem2](/img/post926-gem2.jpg)
 
 * `gem -v` 检查gem版本
@@ -99,7 +99,7 @@ ruby dk.rb install
 至此为止jekyll已经安装完毕，cmd切换至git项目目录，运行`jekyll serve`，即可在本地localhost:4000进行编译预览
 
 ### <span id="jump6">问题集锦<jump6>
-***当然没这么简单，实际操作会遇到各种各样的问题~***
+*当然没这么简单，实际操作会遇到各种各样的问题~*
 
 #### Q1:jekyll版本不同导致启动本地服务时liquid语法报错
 
