@@ -34,9 +34,9 @@ github的操作不再多说，下载git客户端，生成密钥对，将公钥�
 提交修改主要是以下几步
 
 ```
-git add . // 如果没有新加文件可以不用运行此句
+git add .  //如果没有新加文件可以不用运行此句
 git commit -am '描述内容'
-git push (-u origin master) // 括号中内容可加可不加
+git push (-u origin master)  //括号中内容可加可不加
 ```
 
 ### <span id="jump3">安装Devkit</span>
@@ -126,8 +126,7 @@ ruby dk.rb install
 
 ```
 ERROR:  Could not find a valid gem 'jekyll' (>= 0), here is why:
-          Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server ce
-rtificate B: certificate verify failed (https://rubygems.global.ssl.fastly.net/quick/Marshal.4.8/jekyll-1.3.0.gemspec.rz)
+          Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://rubygems.global.ssl.fastly.net/quick/Marshal.4.8/jekyll-1.3.0.gemspec.rz)
 ERROR:  Possible alternatives: jekyll
 ```
 
