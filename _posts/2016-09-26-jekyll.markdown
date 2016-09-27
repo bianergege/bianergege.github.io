@@ -18,17 +18,17 @@ tags:
 
 这边尽量是正确的步骤，其实看起来没几步，但搭建的时候花了好几个小时，返工了好几次，果然我还是老的太快了，，哈哈
 
-1. 配置信息
-2. github
-3. 安装Devkit
-4. 安装Ruby
-5. 安装jekyll
-6. 问题集锦
+1. [配置信息](#jump1)
+2. [github](#jump2)
+3. [安装Devkit](#jump3)
+4. [安装Ruby](#jump4)
+5. [安装jekyll](#jump5)
+6. [问题集锦](#jump6)
 
-### 配置信息
+### <span id="jump1">配置信息</span>
 win10x64
 
-### github
+### <span id="jump2">github</span>
 github的操作不再多说，下载git客户端，生成密钥对，将公钥保存在github上，然后本机就可以直接clone项目啦
 
 提交修改主要是以下几步
@@ -39,7 +39,7 @@ git commit -am '描述内容'
 git push (-u origin master) // 括号中内容可加可不加
 ```
 
-### 安装Devkit
+### <span id="jump3">安装Devkit</span>
 这玩意我其实也不造有啥用，因为我第一次搭的时候没装，jekyll也跑的起来~~
 
 官方地址：[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
@@ -50,7 +50,7 @@ git push (-u origin master) // 括号中内容可加可不加
 
 ![devkit](/img/post926-devkit.jpg)
 
-### 安装Ruby
+### <span id="jump4">安装Ruby</span>
 Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 
 官方地址：同样是[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
@@ -71,11 +71,11 @@ Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 
 ![ruby2](/img/post926-ruby2.jpg)
 
-然后运行`ruby -v`,出现版本号则安装成功
+然后运行`ruby -v`，出现版本号则安装成功
 
 ![ruby3](/img/post926-ruby3.jpg)
 
-### 安装jekyll
+### <span id="jump5">安装jekyll</span>
 最关键也是摔跤最多的步骤！！
 
 #### 安装gem
@@ -98,7 +98,7 @@ Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 
 至此为止jekyll已经安装完毕，cmd切换至git项目目录，运行`jekyll serve`，即可在本地localhost:4000进行编译预览
 
-### 问题集锦
+### <span id="jump6">问题集锦<jump6>
 ***当然没这么简单，实际操作会遇到各种各样的问题~***
 
 #### Q1:jekyll版本不同导致启动本地服务时liquid语法报错
@@ -127,8 +127,7 @@ Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 ```
 ERROR:  Could not find a valid gem 'jekyll' (>= 0), here is why:
           Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server ce
-rtificate B: certificate verify failed (https://rubygems.global.ssl.fastly.net/quick/Marshal.4.8/jekyll-1.3.0.gemspec.rz
-)
+rtificate B: certificate verify failed (https://rubygems.global.ssl.fastly.net/quick/Marshal.4.8/jekyll-1.3.0.gemspec.rz)
 ERROR:  Possible alternatives: jekyll
 ```
 
