@@ -184,7 +184,7 @@ https://ruby.taobao.org
 # 请确保只有 ruby.taobao.org
 ```
 
-但上次发现淘宝的也玩不起来了，维护者在issue下有这样一段话，原来是换新Gems源[https://gems.ruby-china.org/](https://gems.ruby-china.org/)了
+但上次发现淘宝的也玩不起来了，维护者在issue下有这样一段回复，原来是换新Gems源[https://gems.ruby-china.org/](https://gems.ruby-china.org/)了
 
 ![Q5](/img/post926-Q5.jpg)
 
@@ -194,6 +194,10 @@ $ gem sources -l
 https://gems.ruby-china.org
 # 确保只有 gems.ruby-china.org
 ```
+
+#### Q6：代码高亮
+
+至于代码高亮包pygments，由于自2016起，github不再支持pygments，所以我们不再安装pygments包（其实也就不需要安装python和pip啦），而改用rouge高亮包
 
 
 
