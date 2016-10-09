@@ -13,15 +13,20 @@ tags:
 
 > 最近有工作上的任务需要了解机器学习（以下简称ML），看再多遍也不如记下来
 
-#机器学习的定义 Machine Learning definition
+# 机器学习的定义 Machine Learning Definition
 
 ML与任何领域都息息相关，高度跨学科，在计算机视觉、生物学、机器人和自然语言等领域都有作用；
 
 ML源于对人工智能的研究，在最近被认为是计算机的新能力，很多无法编译的程序，可以通过学习型算法，让电脑自己学习，例如：手写识别，自动化飞行，医疗建设，亚马逊、淘宝的个性化推荐，甚至以后可能治愈癌症
 
+```
 Arthur Samuel(1959) Machine Learning:Field of study that gives computers the ability to learn without being explicitly programmed.
+```
 
+```
 Tom Mitchell(1998) Well-posed Learning Problem:A computer program is said to learn from exprformancerience E with respect to some task T and some pee measure P,if its performance on T,as measured by P,improves with experience E.
+```
+
 **对于计算机程序来说，给它一个任务T和一个性能测量方法P，如果在经验E的影响下，P对T的测量结果得到了改进，那么就说该程序从E中学习**
 
 ## 监督学习 Supervised Learning
@@ -30,7 +35,7 @@ Tom Mitchell(1998) Well-posed Learning Problem:A computer program is said to lea
 
 根据结果可分为**回归问题**（需要预测的变量是连续的）和**分类问题**（离散而不连续）
 
-多个输入变量和多个特征，当数据不能在有限维表示出来时————*支持向量机*的算法：把数据映射到无限维空间中
+多个输入变量和多个特征，当数据不能在有限维表示出来时————**支持向量机**的算法：把数据映射到无限维空间中
 
 ## 无监督学习 Unsupervised Learning
 
