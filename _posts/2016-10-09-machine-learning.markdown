@@ -24,7 +24,7 @@ Arthur Samuel(1959) Machine Learning:Field of study that gives computers the abi
 Tom Mitchell(1998) Well-posed Learning Problem:A computer program is said to learn from exprformancerience E with respect to some task T and some pee measure P,if its performance on T,as measured by P,improves with experience E.
 **对于计算机程序来说，给它一个任务T和一个性能测量方法P，如果在经验E的影响下，P对T的测量结果得到了改进，那么就说该程序从E中学习**
 
-##监督学习 Supervised Learning
+## 监督学习 Supervised Learning
 
 为算法提供数据，即一组“标准答案”，之后希望算法去学习标准输入和标准答案之间的联系，以尝试对我们的其他输入提供更标准的答案
 
@@ -32,7 +32,7 @@ Tom Mitchell(1998) Well-posed Learning Problem:A computer program is said to lea
 
 多个输入变量和多个特征，当数据不能在有限维表示出来时————*支持向量机*的算法：把数据映射到无限维空间中
 
-##无监督学习 Unsupervised Learning
+## 无监督学习 Unsupervised Learning
 
 给数据，不给标准答案，然后寻找数据的结构
 
@@ -48,7 +48,7 @@ Tom Mitchell(1998) Well-posed Learning Problem:A computer program is said to lea
 
 ICA算法：`[W,s,v] = svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x');`
 	
-##强化学习 Reinforcement Learning
+## 强化学习 Reinforcement Learning
 
 不需要进行一次决策，在一段时间内做出一系列决策，需要找到一种方式来定义想要什么
 
