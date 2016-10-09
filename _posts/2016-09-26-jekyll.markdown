@@ -34,9 +34,9 @@ github的操作不再多说，下载git客户端，生成密钥对，将公钥�
 提交修改主要是以下几步
 
 ```
-git add . // 如果没有新加文件可以不用运行此句
+git add .  //如果没有新加文件可以不用运行此句
 git commit -am '描述内容'
-git push (-u origin master) // 括号中内容可加可不加
+git push (-u origin master)  //括号中内容可加可不加
 ```
 
 ### <span id="jump3">安装Devkit</span>
@@ -51,7 +51,7 @@ git push (-u origin master) // 括号中内容可加可不加
 ![devkit](/img/post926-devkit.jpg)
 
 ### <span id="jump4">安装Ruby</span>
-Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
+Ruby是安装jekyll必需的，jekyll需要gem，gem需要Ruby
 
 官方地址：同样是[http://rubyinstaller.org/downloads/](http://rubyinstaller.org/downloads/)
 
@@ -63,11 +63,11 @@ Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 
 安装好后进cmd运行如下代码：
 
-`cd devkit` 将当前目录转移到devkit解压路径
-
-`ruby dk.rb init` 初始化Ruby
-
-`ruby dk.rb install` 
+```
+cd devkit  //将当前目录转移到devkit解压路径
+ruby dk.rb init  //初始化Ruby
+ruby dk.rb install
+```
 
 ![ruby2](/img/post926-ruby2.jpg)
 
@@ -84,7 +84,7 @@ Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 * `gem -v` 检查gem版本
 ![gem1](/img/post926-gem1.jpg)
 
-* `gem update --system` 更新Gem
+* `gem update --system` 更新gem
 ![gem2](/img/post926-gem2.jpg)
 
 * `gem -v` 检查gem版本
@@ -99,7 +99,7 @@ Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 至此为止jekyll已经安装完毕，cmd切换至git项目目录，运行`jekyll serve`，即可在本地localhost:4000进行编译预览
 
 ### <span id="jump6">问题集锦<jump6>
-***当然没这么简单，实际操作会遇到各种各样的问题~***
+*当然没这么简单，实际操作会遇到各种各样的问题~*
 
 #### Q1:jekyll版本不同导致启动本地服务时liquid语法报错
 
@@ -126,8 +126,7 @@ Ruby是安装jekyll比需的，jekyll需要gem，gem需要Ruby
 
 ```
 ERROR:  Could not find a valid gem 'jekyll' (>= 0), here is why:
-          Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server ce
-rtificate B: certificate verify failed (https://rubygems.global.ssl.fastly.net/quick/Marshal.4.8/jekyll-1.3.0.gemspec.rz)
+          Unable to download data from https://rubygems.org/ - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://rubygems.global.ssl.fastly.net/quick/Marshal.4.8/jekyll-1.3.0.gemspec.rz)
 ERROR:  Possible alternatives: jekyll
 ```
 
@@ -194,7 +193,7 @@ https://gems.ruby-china.org
 # 确保只有 gems.ruby-china.org
 ```
 
-#### Q6：代码高亮
+#### Q6:代码高亮
 
 至于代码高亮包pygments，由于自2016起，github不再支持pygments，所以我们不再安装pygments包（其实也就不需要安装python和pip啦），而改用rouge高亮包
 
