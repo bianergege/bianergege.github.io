@@ -4,7 +4,7 @@ title:      "上海三日游"
 subtitle:   "现实与回忆的光影"
 date:       2017-04-06
 author:     "Fish"
-header-img: "img/shanghai/IMG_20170403_185353.jpg"
+header-img: "img/shanghai/IMG_20170403_181746.jpg"
 catalog:    true
 tags:
     - X玖
