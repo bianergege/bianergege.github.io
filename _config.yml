@@ -45,8 +45,7 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: disqus_uuatFPkFXq
-disqus_shortname:fishwang
+disqus_username: disqus_uuatFPkFXq
 
 netease_comment: true
 
