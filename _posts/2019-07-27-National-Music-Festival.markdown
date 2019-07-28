@@ -4,7 +4,7 @@ title:      "华乐纪"
 subtitle:   "2019国风音乐盛典"
 date:       2019-07-27
 author:     "Fish"
-header-img: "img/shanghai/IMG_20170403_181746.jpg"
+header-img: "http://m.qpic.cn/psb?/V13AUrV52Ih2zI/lvFCeiKwzjG8Vy8PnRN9UgtnWO3C.V.MEplBOhRoUcI!/b/dPQAAAAAAAAA&bo=YQlABgAKqgYRCbY!&rf=viewer_4"
 catalog:    true
 tags:
     - 国风
