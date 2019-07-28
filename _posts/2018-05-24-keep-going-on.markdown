@@ -7,7 +7,7 @@ author:     "Fish"
 header-img: "img/shanghai/IMG_20170403_181746.jpg"
 catalog:    true
 tags:
-    - 成长
+    - 成长的轨迹
     - 上海
 ---
 
